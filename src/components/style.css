@@ -1,0 +1,10 @@
+    .image {
+    position: relative;
+    }
+    
+    .image figcaption{
+    position: absolute;
+    top: 30%;
+    bottom: 50%;
+    left: 10%;
+    }
