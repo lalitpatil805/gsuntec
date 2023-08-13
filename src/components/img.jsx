@@ -11,43 +11,43 @@ import './style.css';
 
 function ShapeExample() {
   return (
-    
+
     <Container>
-      
+
       <Row>
-        
+
         <Col xs={6} md={3}>
-        
+
           <figure className="image">
-<img style={{width: "105%", height: "100%"}} src={analysis}/>
-<figcaption style={{color:"white"}}><span style= {{fontWeight: "bold"}}>Analytics</span><br/>Turn raw data into valuable insights.</figcaption>
-</figure>
+            <img style={{ width: "105%", height: "100%" }} src={analysis} />
+            <figcaption style={{ color: "white" }}><span style={{ fontWeight: "bold" }}>Analytics</span><br />Turn raw data into valuable insights.</figcaption>
+          </figure>
         </Col>
-      
+
         <Col xs={6} md={3}>
-        <figure className="image">
-<img style={{width: "105%", height: "100%"}} src={software}/>
-<figcaption style={{color:"white"}}><span style= {{fontWeight: "bold"}}>Software Engineering</span><br/>Rock-solid solutions for a changing<br/>world.</figcaption>
-</figure>
+          <figure className="image">
+            <img style={{ width: "105%", height: "100%" }} src={software} />
+            <figcaption style={{ color: "white" }}><span style={{ fontWeight: "bold" }}>Software Engineering</span><br />Rock-solid solutions for a changing<br />world.</figcaption>
+          </figure>
         </Col>
-        
+
         <Col xs={6} md={3}>
-        <figure className="image">
-<img style={{width: "105%", height: "100%"}} src={modernisation}/>
-<figcaption style={{color:"white"}}><span style= {{fontWeight: "bold"}}>Modernisation</span><br/>Evolve, innovate and dominate your<br/>market</figcaption>
-</figure>
+          <figure className="image">
+            <img style={{ width: "105%", height: "100%" }} src={modernisation} />
+            <figcaption style={{ color: "white" }}><span style={{ fontWeight: "bold" }}>Modernisation</span><br />Evolve, innovate and dominate your<br />market</figcaption>
+          </figure>
         </Col>
-        
+
         <Col xs={6} md={3}>
-        <figure className="image">
-<img style={{width: "105%", height: "100%"}} src={manage}/>
-<figcaption style={{color:"white", marginLeft: "40px"}}><span style= {{fontWeight: "bold"}}>Manage-services</span><br/>Leave the heavy lifting to us</figcaption>
-</figure>
+          <figure className="image">
+            <img style={{ width: "105%", height: "100%" }} src={manage} />
+            <figcaption style={{ color: "white", marginLeft: "40px" }}><span style={{ fontWeight: "bold" }}>Manage-services</span><br />Leave the heavy lifting to us</figcaption>
+          </figure>
         </Col>
-    
+
       </Row>
-      </Container>
-    
+    </Container>
+
   );
 }
 
