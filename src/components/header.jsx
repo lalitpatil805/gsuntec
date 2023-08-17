@@ -7,7 +7,6 @@ import React from 'react';
 import logo from './logo.jpg';
 
 function Navbar1() {
-
     return (
         <Navbar expand="lg" >
             <Container>
@@ -38,5 +37,4 @@ function Navbar1() {
         </Navbar >
     );
 }
-
 export default Navbar1;

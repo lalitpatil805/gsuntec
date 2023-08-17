@@ -22,7 +22,7 @@ function About() {
                             We Keep Track Of The Latest Innovations And Trends In Software Development. We Are Continuously Incorporating The Most
                             Efficient Platforms, Programming Languages And Frameworks And We Sharpen Our Technical Skills In Every Project We Work On.
                             Business Challenges – Streamline And Automate Your Business Processes And Overcome Challenges Through Methodology
-                            Technology.It Is Our Goal And Driving Ambition To Be The Trusted Partner Of Choice, Delivering Reliable, Complete Floating Production
+                            Technology. It Is Our Goal And Driving Ambition To Be The Trusted Partner Of Choice, Delivering Reliable, Complete Floating Production
                             Solutions That Create Value For Our Clients, By Sustainably And Passionately Leveraging The Company’S Technology And Operating Experience.
                             </p></Col>
                     </Row>
