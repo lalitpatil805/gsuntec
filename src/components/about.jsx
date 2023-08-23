@@ -6,11 +6,8 @@ import Col from 'react-bootstrap/Col';
 import compimg from './compimg.jpg';
 
 function About() {
-
     return (
-        <>
-
-
+        <>  
             <div>
                 <Container>
                     <Row>
@@ -33,11 +30,8 @@ function About() {
                 <br />
             
                 <img style={{ width: "70%" }} src={compimg} alt="" />
-
             </div >
-
         </>
-
     );
 }
 export default About;

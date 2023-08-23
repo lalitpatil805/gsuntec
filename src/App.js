@@ -5,6 +5,8 @@ import ShapeExample from './components/img';
 import DarkVariantExample from './components/corosol';
 import About from './components/about';
 import Our from './components/our';
+import VMPIcons from './components/VMPIcons';
+import VMPName from './components/VMPName';
 
 function App() {
   return (
@@ -19,7 +21,8 @@ function App() {
 <br/>
 <br/>
 <Our/>
-
+<VMPIcons/><br/>
+<VMPName/>
     </div>
   );
 }
