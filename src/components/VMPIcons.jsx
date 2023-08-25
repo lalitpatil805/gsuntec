@@ -5,9 +5,9 @@ function VMPIcons() {
   return (
     <>
     <div>
-    <BsFillRocketTakeoffFill size={"50px"} style={{marginRight:'200px'}}/>
+    <BsFillRocketTakeoffFill size={"50px"} style={{marginRight:'300px'}}/>
     <FaEye size={"50px"} style={{marginLeft:'150px'}}/>
-    <FaPencilAlt size={"50px"} style={{marginLeft:'350px'}}/>
+    <FaPencilAlt size={"50px"} style={{marginLeft:'450px'}}/>
     </div>
     </>
   );

@@ -7,6 +7,7 @@ import About from './components/about';
 import Our from './components/our';
 import VMPIcons from './components/VMPIcons';
 import VMPName from './components/VMPName';
+import Why from './components/Why';
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
 <br/>
 <Our/>
 <VMPIcons/><br/>
-<VMPName/>
+<VMPName/><br/>
+<Why/><br/>
     </div>
   );
 }
