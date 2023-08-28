@@ -8,6 +8,8 @@ import Our from './components/our';
 import VMPIcons from './components/VMPIcons';
 import VMPName from './components/VMPName';
 import Why from './components/Why';
+import Henry from './components/henry';
+import Ourproduct from './components/ourproduct';
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
 <VMPIcons/><br/>
 <VMPName/><br/>
 <Why/><br/>
+<Henry/>
+<Ourproduct/>
     </div>
   );
 }
