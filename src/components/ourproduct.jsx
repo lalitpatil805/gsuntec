@@ -11,8 +11,8 @@ function Ourproduct() {
 
 <div style={{display: 'flex', flexDirection: 'row'}}>
     <img style={{height:'250px', width:'450px', marginLeft:'10px'}} src={pic1} alt="pic1" />
-    <img style={{height:'250px', width:'450px', marginLeft:'10px'}} src={pic2} alt="pic2" />
-    <img style={{height:'250px', width:'450px',marginLeft:''}} src={pic3} alt="pic3" />
+    <img style={{height:'250px', width:'450px', marginLeft:'70px'}} src={pic2} alt="pic2" />
+    <img style={{height:'250px', width:'450px',marginLeft:'60px'}} src={pic3} alt="pic3" />
 
 </div>
 </div>
