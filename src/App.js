@@ -10,7 +10,8 @@ import VMPName from './components/VMPName';
 import Why from './components/Why';
 import Henry from './components/henry';
 import Ourproduct from './components/ourproduct';
-
+import Ourclients from './components/ourclients';
+import Footer from './components/footer';
 function App() {
   return (
     <div className="App">
@@ -29,7 +30,9 @@ function App() {
 <Why/><br/>
 <Henry/>
 <Ourproduct/><br/>
-<br/>
+<br/><br/>
+<Ourclients/><br/><br/><br/>
+<Footer/>
     </div>
   );
 }
