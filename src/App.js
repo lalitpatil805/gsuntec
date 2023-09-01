@@ -12,12 +12,13 @@ import Henry from './components/henry';
 import Ourproduct from './components/ourproduct';
 import Ourclients from './components/ourclients';
 import Footer from './components/footer';
+import Nextpage from './components/nextpage';
 function App() {
   return (
     <div className="App">
   
 <Navbar1/>
- <ShapeExample/>
+ {/* <ShapeExample/>
 <DarkVariantExample/>
 <br/>
 <br/>
@@ -32,7 +33,8 @@ function App() {
 <Ourproduct/><br/>
 <br/><br/>
 <Ourclients/><br/><br/><br/>
-<Footer/>
+<Footer/> */}
+<Nextpage/>
     </div>
   );
 }
