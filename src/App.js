@@ -19,21 +19,16 @@ function App() {
   
 <Navbar1/>
  {/* <ShapeExample/>
-<DarkVariantExample/>
-<br/>
-<br/>
-<About/>
-<br/>
-<br/>
+<DarkVariantExample/><br/><br/>
+<About/><br/><br/>
 <Our/>
 <VMPIcons/><br/>
 <VMPName/><br/>
 <Why/><br/>
 <Henry/>
-<Ourproduct/><br/>
-<br/><br/>
-<Ourclients/><br/><br/><br/>
-<Footer/> */}
+<Ourproduct/><br/><br/><br/>
+<Ourclients/><br/><br/><br/> */}
+{/* <Footer/> */}
 <Nextpage/>
     </div>
   );
