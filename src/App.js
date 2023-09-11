@@ -9,16 +9,19 @@ import VMPIcons from './components/VMPIcons';
 import VMPName from './components/VMPName';
 import Why from './components/Why';
 import Henry from './components/henry';
-import Ourproduct from './components/ourproduct';
+import Ourproduct from './components/Ourproduct';
 import Ourclients from './components/ourclients';
 import Footer from './components/footer';
 import Nextpage from './components/nextpage';
+import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 function App() {
   return (
+    <>
+     <Router>
     <div className="App">
   
 <Navbar1/>
- {/* <ShapeExample/>
+ <ShapeExample/>
 <DarkVariantExample/><br/><br/>
 <About/><br/><br/>
 <Our/>
@@ -27,11 +30,17 @@ function App() {
 <Why/><br/>
 <Henry/>
 <Ourproduct/><br/><br/><br/>
-<Ourclients/><br/><br/><br/> */}
-{/* <Footer/> */}
-<Nextpage/>
-    </div>
+<Ourclients/><br/><br/><br/>
+<Footer/>
+{/* <Nextpage/> */}
+   
+      {/* <Routes>
+        <Route exact path='' component={Navbar1} />
+        <Route path="Our Products" component={<Ourproduct/>} />
+      </Routes> */}
+      </div>
+    </Router>
+    </>
   );
 }
-
 export default App;

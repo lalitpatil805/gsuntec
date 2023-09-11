@@ -1,7 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-//import video1 from "./video1.mp4";
 import coro1 from './coro1.jpg';
 import coro2 from './coro2.jpg';
 import coro3 from './coro3.jpg';
@@ -11,18 +10,18 @@ function DarkVariantExample() {
   return (
     <Carousel data-bs-theme="dark">
        <Carousel.Item>
-        <img style={{ width:"1270px", height: "400px"}}
+        <img style={{ width:"1300px", height: "400px"}}
         //   className="w-20"
           src={coro4}
           alt="First slide"
         />
         <Carousel.Caption>
-          <h5 style={{fontSize:"50px", color: 'white', fontWeight:'bold', marginTop:'-30%'}}>Business Intelligence</h5>
+          <h5 style={{fontSize:"50px", color: 'white', fontWeight:'bold', marginTop:'-30%',animationDuration:'4s'}}>Business Intelligence</h5>
           <p style={{ fontsize:"20px", color: 'white'}}>Informed Intelligence on demand, Anywhere, Everywhere.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img style={{ width:"1270px", height: "400px"}}
+        <img style={{ width:"1300px", height: "400px"}}
         //   className="w-20"
           src={coro3}
           alt="Second slide"
@@ -35,7 +34,7 @@ function DarkVariantExample() {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img style={{ width:"1270px", height: "400px"}}
+        <img style={{ width:"1300px", height: "400px"}}
         //   className="w-20"
           src={coro2}
           alt="Third slide"
@@ -46,7 +45,7 @@ function DarkVariantExample() {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img style={{ width:"1270px", height: "400px"}}
+        <img style={{ width:"1300px", height: "400px"}}
         
         //   className="w-50"
           src={coro1}

@@ -11,7 +11,7 @@ import './style.css';
 function ShapeExample() {
   return (
 
-    <Container>
+    <Container style={{margin:'0px', padding:'0px', marginLeft:'86px'}}>
 
       <Row>
 
@@ -46,8 +46,6 @@ function ShapeExample() {
 
       </Row>
     </Container>
-
   );
 }
-
 export default ShapeExample;

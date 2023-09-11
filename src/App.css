@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+.image:hover img{
+  transform: scale(1.1);
+}
+@keyframes mymove{
+  from {left: -200px;}
+  to {left: 0px;}
+}
+@keyframes myfirst{
+  from {right: -200px;}
+  to {right: 0px;}
+}
