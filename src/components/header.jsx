@@ -15,13 +15,13 @@ function Navbar1() {
                 <Navbar.Collapse id="basic-navbar-nav" style={{ marginRight: "50%" }}>
                     <Nav className="me-auto">
                         <NavDropdown title="HOME" id="basic-nav-dropdown" style={{ marginRight: "10px", color: "black", fontWeight:'bold' }}>
-                            <NavDropdown.Item href="#action/3.1" style={{ color: "blue" }}>OUR PRODUCT</NavDropdown.Item>
+                            <NavDropdown.Item href="#Our Product" style={{ color: "blue" }}>OUR PRODUCT</NavDropdown.Item>
                         </NavDropdown>
                         <Nav.Link href="#link" style={{ marginRight: "10px", color: "black", fontWeight:'bold' }}>LINK</Nav.Link>
                         <Nav.Link href="#link" style={{ marginRight: "10px", color: "black", display: "inline-grid", fontWeight:'bold' }}>WHY US</Nav.Link>
 
 <NavDropdown title="SERVICE" id="basic-nav-dropdown" style={{ marginRight: "10px", color: "black", fontWeight:'bold' }}>
-    <NavDropdown.Item href="Mobile Solutions" style={{ color: "blue" }}>MOBILE SOLUTION</NavDropdown.Item>
+    <NavDropdown.Item  style={{ color: "blue" }}>MOBILE SOLUTION</NavDropdown.Item>
     <NavDropdown.Item href="Business Intelligence" style={{ color: "blue" }}>BUSINESS INTELLIGENCE</NavDropdown.Item>
     <NavDropdown.Item href="Testing" style={{ color: "blue" }}>TESTING</NavDropdown.Item>
     <NavDropdown.Item href="Enterprise" style={{ color: "blue" }}>ENTERPRISE SOLUTIONS</NavDropdown.Item>

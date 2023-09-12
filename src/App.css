@@ -40,10 +40,33 @@
   transform: scale(1.1);
 }
 @keyframes mymove{
-  from {left: -200px;}
+  from {left: -100px;}
   to {left: 0px;}
 }
 @keyframes myfirst{
+  from {right: -100px;}
+  to {right: 0px;}
+}
+.ourproduct:hover{
+  transform: scale(1.1);
+}
+@keyframes mymoves{
+  from {bottom: -30px;}
+  to {top: auto;}
+}
+@keyframes Next{
+  from {left: -200px;}
+  to {left: 0px;}
+}
+@keyframes page{
   from {right: -200px;}
   to {right: 0px;}
+}
+@keyframes down{
+  from {bottom: -200px;}
+  to {top: auto;}
+}
+@keyframes up{
+  from {top: -200px;}
+  to {bottom: auto;}
 }

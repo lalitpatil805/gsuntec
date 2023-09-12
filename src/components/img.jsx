@@ -16,7 +16,6 @@ function ShapeExample() {
       <Row>
 
         <Col xs={6} md={3}>
-
           <figure className="image">
             <img style={{ width: "105%", height: "100%" }} src={analysis} />
             <figcaption style={{ color: "white" }}><span style={{ fontWeight: "bold" }}>Analytics</span><br />Turn raw data into valuable insights.</figcaption>
