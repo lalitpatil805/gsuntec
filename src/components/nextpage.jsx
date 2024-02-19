@@ -12,7 +12,6 @@ import Footer from './footer';
 function Nextpage() {
   return (
     <>
-    
     <div>
     <Header/>
     <div>
