@@ -1,4 +1,5 @@
 import React from 'react';
+import Header from './header';
 import Technology from './technology.jpg';
 import Methodology from './methodology.jpg';
 import Businesschallenge from './businesschallenge.jpg'; 
@@ -11,8 +12,9 @@ import Footer from './footer';
 function Nextpage() {
   return (
     <>
+    
     <div>
-    <header/>
+    <Header/>
     <div>
         <div style={{color:'#2785D9', fontSize:'30px',fontWeight:'bold',opacity:'0.9'}}>We focus on 3 things</div><br/>
         <p style={{color:'#7a7a7a',marginBottom:'1.75em',lineHeight:'30px'}}>Our mission is rather simple; Global Suntech is committed to helping its customers with their goal and driving ambition to be the trusted partner of choice, delivering reliable, complete<br/> floating production solutions that create value for our clients, by sustainably and passionately leveraging the Company’s technology and operating experience.</p>

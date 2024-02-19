@@ -9,16 +9,17 @@ function Our() {
 
 <div style={{display: 'flex', flexDirection: 'row', justifyContent:'space-around', flexWrap:'wrap'}}>
 
-<div>
-    <BsFillRocketTakeoffFill size={"50px"} style={{marginLeft:'0px'}}/><br/><br/>
+<div className="">
+    <div className="item"><BsFillRocketTakeoffFill size={"50px"}/></div><br/>
     <h3 style={{fontSize:'18px', color:'blue', textDecorationLine:'underline', textDecorationThickness:'5px', textUnderlineOffset:'6px'}}>Vision</h3><br/>
     <p style={{marginLeft:'30px'}}>To Be A Trusted Partner Of Our Customers And <br/>
     Employees, Through Innovation & Technology Excellence <br/>
     And To Act As A Socially Responsible organization.</p>
 </div>
 
+
 <div> 
-   <FaEye size={"50px"} style={{marginLeft:'10px'}}/><br/><br/>
+   <div className="item"><FaEye size={"50px"} style={{marginLeft:'10px'}}/></div><br/>
    <h3 style={{marginLeft:'10px',fontSize:'18px', color:'blue', textDecorationLine:'underline', textDecorationThickness:'5px', textUnderlineOffset:'6px'}}>Mission</h3><br/>
    <p style={{marginRight:'20px'}}>To Seek Sustained And Aggressive Growth As A Niche<br/>
    Software Solution Provider. We Shall Endeavor To Delight<br/>
@@ -27,7 +28,7 @@ function Our() {
 </div>
     
 <div>
-    <FaPencilAlt size={"50px"} style={{marginRight:'50px'}}/><br/><br/>
+<div className="item"><FaPencilAlt size={"50px"} style={{marginRight:'50px'}}/></div><br/>
     <h3 style={{marginRight:'50px',fontSize:'18px', color:'blue',textDecorationLine:'underline', textDecorationThickness:'5px', textUnderlineOffset:'6px'}}>Passion</h3><br/>
     <p style={{marginRight:'50px'}}>To Expand Business Reach, Improve Sales Conversion And <br/>
     Have Enduring Client Relationships By Harnessing Cutting <br/>
